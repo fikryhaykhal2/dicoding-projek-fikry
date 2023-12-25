@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+header {
+    height: 70px;
+    background-color: #b34949;
+}
+
+header h1 {
+    display: inline-block;
+    float: left;
+    padding: 19px 24px;
+    text-transform: uppercase;
+}
+
+header h1 a {
+    transition: .3s;
+}
+
+header h1 a:hover {
+    color: #ffffff;
+}
+
+header ul {
+    float: left;
+}
+
+header ul li {
+    padding-top: 23px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+header ul li a {
+    transition: 0.3s;
+}
+
+header ul li a:hover {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-decoration: double;
+    margin: 20px;
+    font-style: oblique;
+}
+
+.hero{
+min-height: 100vh;
+display: flex;
+justify-content: center;
+background-image: url('img/bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+position: relative;
+}
+
+.hero .content{
+    justify-content: center;
+    text-align: center;
+}
+.hero .content h1{
+    font-size: 1cm;
+    color:#ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hero .content p{
+    font-size: 1.6rem;
+    color:#ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 0.5rem;
+    line-height: 1.4;
+
+}
+.hero .content .cta {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    color: #ffffff;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(1,1,3,0.5);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#hobi h2,
+img {
+    text-align: center;
+}
+
+#profile header,
+h2,
+figure,
+img {
+    text-align: center;
+    width: auto;
+}
+
+h2 span {
+    border: 6px dashed #b34949;
+    padding: 5px 15px;
+}
+
+#profile img {
+    width: 300px;
+}
+
+#profile {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #b34949;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
